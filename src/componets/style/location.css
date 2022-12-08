@@ -39,6 +39,9 @@
     border-radius: 15px;
     box-shadow: 0 1px #999;
 }
+.input_button:hover{
+    background-color: #03434b;
+}
 .header_boxes{
     background-color: #062226;
     margin: 2% 10%;
