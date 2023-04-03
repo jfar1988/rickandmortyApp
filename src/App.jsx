@@ -36,7 +36,7 @@ function App() {
         <input id="inputSearch" type="text" />
         <button>Search</button>
       </form> */}
-       <Location
+      <Location
         url={url}
         locationInput={locationInput}
         handleSubmit={handleSubmit}
@@ -48,7 +48,7 @@ function App() {
           ))}
         </div>
       ) : (
-        <Error/>
+        <Error />
       )}
     </div>
   );

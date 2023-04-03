@@ -2,8 +2,10 @@
     position: relative;
 }
 .header_img{
-    position: absolute;
-    top: 0;
+    height: 50vh;
+    object-fit: cover;
+    width: 100%;
+    object-position:center;
 }
 .input_form{
     display: flex;

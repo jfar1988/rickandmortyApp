@@ -1,20 +1,17 @@
 import React from "react";
 import "./style/location.css";
 import Input from "./Input";
-const Location = ({ url, locationInput,handleSubmit }) => {
+const Location = ({ url, locationInput, handleSubmit }) => {
   return (
     <article className="header">
-      <div className="header_imgs">
-        <img src="\src\img\image3.png" alt="" />
+      <div>
         <img
           className="header_img"
-          src="\src\img\image2.png"
-          alt="image_tittle"
+          src="https://get.wallhere.com/photo/Rick-and-Morty-digital-art-tv-series-portal-space-1799919.jpg"
+          alt="bg-nav"
         />
       </div>
-      <Input
-      handleSubmit={handleSubmit}
-      />
+      <Input handleSubmit={handleSubmit} />
       <div className="header_boxes">
         <ul className="header_items">
           <li className="header_item">
